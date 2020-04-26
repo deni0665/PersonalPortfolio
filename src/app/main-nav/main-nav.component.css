@@ -1,0 +1,39 @@
+.sidenav-container {
+  height: 100%;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+a {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+  
+div.name {
+    font-weight: bold;
+    font-size:20px;
+    text-align: center;
+    padding-top: 10px;
+    color:black;
+}
+
+div.details{
+  text-align: center;
+  color:black;
+  font-size:12px;
+}  
+.center {
+    margin: auto;
+    padding: 22px;
+}
+
+.sidenav {
+  width: 219px;
+  background: #e7edf7;
+
+  /* background: #f2f3f7; */
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}

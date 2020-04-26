@@ -1,0 +1,70 @@
+
+
+
+
+<div class="main">
+ 
+
+<div class="card">
+    <div class="card-body">
+        <div class="row"  >
+            <div class="col-8" style="padding-right: 100pt;"> 
+
+      <h6 class="card-subtitle mb-2 text-muted">WHO AM I?</h6>
+      <h5 class="card-title">ABOUT ME</h5>
+      <div class="card-text">   
+        Some quick example text to build on the card title and make up the bulk of the card's content.
+        <p>Hi, I am Denitsa Pavlova. Currently I am student at Fontys University of Applied Sciences.
+             I have experience with js and php-based framworks and programming languages like C#, Java, Kotlin.
+             <p>During my study I have done several projects including this portfolio- using Angular. I have an an internship </p>
+             Face problems with smile
+       </div>
+             </div>
+
+             <div class="col-3"> 
+                <!-- <mat-vertical-stepper style="background:transparent" [linear]="true">
+                    <mat-step label="Old date" disabled>
+                    </mat-step> 
+                
+                    <mat-step  label="New date" disabled>
+                    </mat-step> 
+                  </mat-vertical-stepper> -->
+                
+                  <mat-vertical-stepper #stepper [linear]="true" style="background: transparent;font-family: 'Trebuchet MS', Helvetica, sans-serif;">
+
+                    <mat-step [completed]="false">
+                        <ng-template matStepLabel>
+                            <div (click)="isFoo = true">Education</div>
+                        </ng-template>
+
+
+                    </mat-step>
+                    <mat-step>
+                        <ng-template matStepLabel>
+                            <div (click)="isFoo = true">Work</div>
+                        </ng-template>
+                    </mat-step>
+                    <mat-step>
+                        <ng-template matStepLabel>
+                            <div (click)="isFoo = true">Skills</div>
+                        </ng-template>
+                    </mat-step>
+                    </mat-vertical-stepper>
+
+
+            </div>
+</div>
+</div>
+</div>
+Hello World!
+Create components for Work, Skills, Education inside the about section and then include them here 
+using the ng if 
+                        <!-- *ngIf="isFoo == false" -->
+
+
+
+
+</div>
+
+
+

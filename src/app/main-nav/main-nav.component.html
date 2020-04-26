@@ -1,0 +1,34 @@
+<mat-sidenav-container class="sidenav-container">
+  <mat-sidenav #drawer class="sidenav" fixedInViewport
+      [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
+      [mode]="(isHandset$ | async) ? 'over' : 'side'"
+      [opened]="(isHandset$ | async) === false">
+    <mat-nav-list>
+      <!-- MAIN -->
+      <div class="center">
+              <img class="rounded-circle" width="170" height="170" src="./assets/user.jpg"/>
+              <div class="name">Denitsa Pavlova</div>
+            <hr>
+              <div class="details">
+              denicapavlova166@gmail.com
+              <span>
+              +31 (06) 179 170 61
+              </span>
+              </div>
+      </div>
+
+    <!-- MENU -->
+          <a mat-list-item routerLink="about">About</a>
+          <!-- <a mat-list-item href="#">Skills</a> -->
+          <a mat-list-item routerLink="portfolio">Portfolio</a>
+          <a mat-list-item href="#">Contact</a>
+  
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+
+    <ng-content></ng-content> 
+    <!-- angular content protection - otherwise you cannot see the button -->
+    <!-- Add Content Here -->
+  </mat-sidenav-content>
+</mat-sidenav-container>
