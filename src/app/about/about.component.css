@@ -1,8 +1,13 @@
 
+html, body { height: 100%; background-color: #fff;} 
+/* IMPORTANT */
+
+
 div.main{
     width:100%;
     height:100%;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background-color: #fff; 
 
 }
 img{
@@ -18,18 +23,23 @@ div.card{
     padding-right: 20pt;
     border: none;
     border-radius: 0;
-    background: #cedcee;
+    background: #fff;
 }
 h5{
     font-weight: bold;
 }
-/* ::ng-deep .mat-vertical-stepper-header [aria-selected="true"] {
-    pointer-events: none !important;
-} */
 
 ::ng-deep .mat-step-header .mat-step-icon {
-
     background-color: #e7edf7;
     pointer-events: none !important;
+}
 
+div.stepper{
+    color:black;
+}
+.btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    border: 1px solid;
 }

@@ -32,38 +32,40 @@
                 
                   <mat-vertical-stepper #stepper [linear]="true" style="background: transparent;font-family: 'Trebuchet MS', Helvetica, sans-serif;">
 
-                    <mat-step [completed]="false">
+                    <mat-step [completed]="false" >
                         <ng-template matStepLabel>
-                            <div (click)="isFoo = true">Education</div>
+                            <div class="stepper" (click)="isFoo = true">Education</div>
                         </ng-template>
-
-
                     </mat-step>
+
                     <mat-step>
                         <ng-template matStepLabel>
-                            <div (click)="isFoo = true">Work</div>
+                            <div class="stepper" (click)="isFoo = true">Skills</div>
                         </ng-template>
                     </mat-step>
+
                     <mat-step>
                         <ng-template matStepLabel>
-                            <div (click)="isFoo = true">Skills</div>
+                            <div class="stepper" (click)="isFoo = true">Jobs</div>
                         </ng-template>
                     </mat-step>
-                    </mat-vertical-stepper>
-
-
+                    </mat-vertical-stepper>                  
             </div>
 </div>
 </div>
 </div>
+
+<div>
+
+    <button type="button" class="btn btn-default btn-circle btn-xl">2017</button>
 Hello World!
 Create components for Work, Skills, Education inside the about section and then include them here 
 using the ng if 
                         <!-- *ngIf="isFoo == false" -->
 
+                     
 
-
-
+</div>                        
 </div>
 
 
