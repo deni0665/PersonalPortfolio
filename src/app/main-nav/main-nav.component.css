@@ -1,10 +1,16 @@
 .sidenav-container {
   height: 100%;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color:white;
 }
 
 a {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 16px !important;
+  color:white !important;
+}
+hr{
+  background-color: white;
 }
   
 div.name {
@@ -12,13 +18,13 @@ div.name {
     font-size:20px;
     text-align: center;
     padding-top: 10px;
-    color:black;
+    color:white;
 }
 
 div.details{
   text-align: center;
-  color:black;
-  font-size:12px;
+  color:white;
+  font-size:14px;
 }  
 .center {
     margin: auto;
@@ -26,10 +32,10 @@ div.details{
 }
 
 .sidenav {
-  width: 219px;
-  background: #e7edf7;
-
-  /* background: #f2f3f7; */
+  width: 225px;
+  border:none;
+  background-color: #485461;
+  background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
 }
 
 .mat-toolbar.mat-primary {

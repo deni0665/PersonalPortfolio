@@ -14,6 +14,7 @@ import { RouterModule, Routes } from '@angular/router';
 import {AboutComponent} from './about/about.component';
 import {PortfolioComponent }from './portfolio/portfolio.component';
 import {MatStepperModule} from '@angular/material/stepper';
+import { MatTabsModule } from '@angular/material/tabs';
 
 
 const appRoutes: Routes =[
@@ -36,11 +37,12 @@ const appRoutes: Routes =[
     LayoutModule,
     MatToolbarModule,
     MatButtonModule,
+    MatTabsModule,
     MatSidenavModule,
     MatIconModule,
     MatListModule,
     MatStepperModule,
-    RouterModule.forRoot(appRoutes)
+    RouterModule.forRoot(appRoutes),
   ],
   providers: [],
   bootstrap: [AppComponent]
