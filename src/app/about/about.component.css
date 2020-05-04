@@ -21,19 +21,6 @@ div.main{
     flex-direction:row;
     /* when zooming in/out */
 }
-.education{
-        display: inline-block;
-        color: black !important;
-        padding: 20px; 
-        margin: 15px;
-        overflow-y: hidden;  
-        overflow-x: hidden;  
-
-        display: flex;  
-        flex-direction:row;
-
-        /* when zooming in/out */
-}
 div.col-9{
     height:250px;
     border-left: 1px solid #28313b;
@@ -77,15 +64,6 @@ path{
 }
 path:hover {
      fill:url(#sec);
-}
-
-.col-5{
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
-
-    margin:3pt;
-    padding: 15pt;
-    border-top: 1px solid #28313b;
-    border-bottom: 1px solid #28313b;
 }
 h5:hover{    
     background: -webkit-linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);

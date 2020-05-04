@@ -15,6 +15,8 @@ import {AboutComponent} from './about/about.component';
 import {PortfolioComponent }from './portfolio/portfolio.component';
 import {MatStepperModule} from '@angular/material/stepper';
 import { MatTabsModule } from '@angular/material/tabs';
+import { EducationComponent } from './about/education/education.component';
+import { SkillsComponent } from './about/skills/skills.component';
 
 
 const appRoutes: Routes =[
@@ -30,6 +32,8 @@ const appRoutes: Routes =[
     MainNavComponent,
     AboutComponent,
     PortfolioComponent,
+    EducationComponent,
+    SkillsComponent,
   ],
   imports: [
     BrowserModule,
