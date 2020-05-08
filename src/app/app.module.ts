@@ -11,18 +11,18 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { RouterModule, Routes } from '@angular/router';
-import {AboutComponent} from './about/about.component';
-import {PortfolioComponent }from './portfolio/portfolio.component';
+import {AboutComponent} from './main/about/about.component';
 import {MatStepperModule} from '@angular/material/stepper';
 import { MatTabsModule } from '@angular/material/tabs';
-import { EducationComponent } from './about/education/education.component';
-import { SkillsComponent } from './about/skills/skills.component';
+import { EducationComponent } from './main/about/education/education.component';
+import { SkillsComponent } from './main/about/skills/skills.component';
+import { ExperienceComponent } from './main/about/experience/experience.component';
+import { MainComponent } from './main/main.component';
+import { FormsModule } from '@angular/forms';
 
 
 const appRoutes: Routes =[
-  {path:'about', component:AboutComponent},
-  {path: 'portfolio',component:PortfolioComponent},
-  {path:'',redirectTo:'/about',pathMatch:'full'}
+  {path:'', component:MainComponent}
 ];
 
 
@@ -31,12 +31,14 @@ const appRoutes: Routes =[
     AppComponent,
     MainNavComponent,
     AboutComponent,
-    PortfolioComponent,
     EducationComponent,
     SkillsComponent,
-  ],
+    ExperienceComponent,
+    MainComponent
+    ],
   imports: [
     BrowserModule,
+    FormsModule,
     BrowserAnimationsModule,
     LayoutModule,
     MatToolbarModule,

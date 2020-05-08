@@ -1,0 +1,29 @@
+#experience:hover{
+    border-top: 1px solid;
+    border-image-source: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+    border-image-slice: 1;
+}
+.row{
+    justify-content: center;
+    margin:10pt;
+    background-color: white;
+    padding:15pt;
+}
+ #experience{
+    min-height: 290px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-right: 30pt !important;
+    color:black;
+}
+
+.card{
+    border:none;
+}
+h5:hover{    
+    background: -webkit-linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+

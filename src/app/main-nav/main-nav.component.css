@@ -1,11 +1,10 @@
 .sidenav-container {
   height: 100%;
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
   color:white;
 }
 
 a {
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  /* font-family: "Trebuchet MS", Helvetica, sans-serif; */
   font-size: 16px !important;
   color:white !important;
 }
